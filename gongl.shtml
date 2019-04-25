@@ -1,0 +1,114 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>苏州宋锦-《新天龙八部》官方网站</title>
+    <meta name="keywords" content="天龙,新天龙,天龙八部,新天龙八部,天龙八部3,tl,tlbb,tl3,xtl,网络游戏,网游,武侠,浪漫武侠,武侠游戏,金庸,MMO,天龙八部OL,年终vip，vip回馈，猪年珍兽" />
+    <meta name="description" content="《新天龙八部》2019开年大服：鸿运当头、鸿运连年！专属春节限定外观、国风珍兽、女神相伴、全新春节活动、海量福利，更有每天一部iPhone XS等你来拿！金庸正版授权，大英雄武侠世界，等你为兄弟热血而战。" />
+    <meta name="author" content="" />
+    <meta name="applicable-device" content="mobile">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <link type="image/x-icon" href="http://xtl.changyou.com/favicon.ico" rel="icon"/>
+    <link type="image/x-icon" href="http://xtl.changyou.com/favicon.ico" rel="shortcut icon" /> 
+    <link type="text/css" rel="stylesheet" href="http://tl.changyou.com/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/act/xtl/luck/20190408/mobile/css/index.css"/>
+    <script type="text/javascript">
+        //屏幕适应
+        (function (win, doc) {
+            if (!win.addEventListener) return;
+            function setFont() {
+                var html = document.documentElement;
+                var k =750;
+                html.style.fontSize = html.clientWidth / k * 100 + "px";
+            }
+            setFont();
+            setTimeout(function () {
+                setFont();
+            }, 300);
+            doc.addEventListener('DOMContentLoaded', setFont, false);
+            win.addEventListener('resize', setFont, false);
+            win.addEventListener('load', setFont, false);
+        })(window, document);
+    </script>
+    <style>
+        body,html{height: auto; overflow: visible;}
+    </style>
+</head>
+<body class="gl-page">
+<div class="wrap">
+    <!-- 内容部分-->
+    <div class="content pr">
+        <a href="javascript:void(0);" class="home-btn p-comm" title="回到首页">回到首页</a>
+        <div class="main1">
+            <div class="m1-con">
+                <h2 class="m-tit hh">第一步：收集蚕茧</h2>
+                <p class="m-tip"><i class="red">5月6日至5月12日，</i>点击左下方“收集蚕茧”按钮，<br>完成<i class="red">邀请好友</i>、<i class="red">登录游戏</i>和<i class="red">答题</i>，收集蚕茧。</p>
+                <ul class="m-txt">
+                    <li><i class="dot icon">1</i><span class="red">双重收益：成功邀请1名好友，每日获得蚕茧*10； 好友再邀请好友，每日额外获得蚕茧*1。</span></li>
+                    <li><i class="dot icon">2</i><span>每人最多邀请5名好友。</span></li>
+                    <li><i class="dot icon">3</i><span>每人最多接受1次邀请。</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main2">
+            <div class="m2-con">
+                <h2 class="m-tit hh">每日登录游戏客户端</h2>
+                <ul class="m-txt">
+                    <li><i class="dot icon">1</i><span class="red">每日登录《新天龙八部》游戏客户端，即可在活动页面领取蚕茧*50。</span></li>
+                    <li><i class="dot icon">2</i><span>登录数据每日清零，请尽快领取。</span></li>
+                    <li><i class="dot icon">3</i><span>若遇网络不佳，可能存在10-20分钟延迟，请稍后领取，敬请谅解。</span></li>
+                </ul>
+            </div>
+            <div class="m3-con">
+                <h2 class="m-tit hh">每日答题</h2>
+                <ul class="m-txt">
+                    <li><i class="dot icon">1</i><span class="red">每日答对3道宋锦文化趣味题目，即可获得蚕茧*30。</span></li>
+                    <li><i class="dot icon">2</i><span>答题次数每天24点刷新。</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main3">
+            <div class="m4-con">
+                <h2 class="m-tit hh">第二步：织造宋锦赢豪礼</h2>
+                <p class="m-tip">
+                    1. 每次织造需消耗100个蚕茧，可获得<i class="red">锦绣如画礼包</i>，有机会获得<i class="red">真元精珀、3级秘银、3级棉布</i>等奖励；
+                    累织造4次，还能额外获得<i class="red">5个至尊强化精华</i>，更有几率获得新天龙八部X中国黄金定制的十二周年纪念币！<br>
+                    2. 道具奖励实时发奖，请尽快前往大理（172，122）龚彩云处领取。<br>
+                    3. 十二周年纪念币获奖名单将于5月13日于官网公告和微信公众号公布，敬请期待！
+                </p>
+            </div>
+        </div>
+        <div class="main4">
+            <div class="m5-con">
+                <div class="pop-t"><h2 class="mp-tit icon hh">参与条件</h2></div>
+                <div class="pop-c">
+                    <ul class="m-txt">
+                        <li><i class="dot icon">1</i><span><i class="red">停权账号无法参与活动</i>，请尽快解除停权状态或切换账号参与。</span></li>
+                        <li><i class="dot icon">2</i><span>参与活动需账号下最高角色<i class="red">等级≥30级</i>，若不满足条件，请尽快提升角色等级或切换账号参与。</span></li>
+                        <li><i class="dot icon">3</i><span>为了您更便捷地参与活动，若您<i class="red">近期参与过《新天龙八部》其他微信活动</i>，将自动登录上近期参与活动的账号。若需切换其他账号，请点击首页右上角“注销”按钮更换。</span></li>
+                    </ul>
+                </div>
+                <div class="pop-b"></div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<script src="/act/all/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/act/xtl/luck/20190408/mobile/js/zepto.min.js"></script>
+<script type="text/javascript" src="http://www.changyou.com/cyou_share/cyoushare.js"></script>
+<script type="text/javascript" src="http://www.cy.com/js/cy_public_dark.js"></script> <!-- H5底部-->
+<script type="text/javascript">
+    //跳转到首页
+    $('.home-btn').on('click',function(){
+        window.location.replace("index.shtml");
+    });
+
+</script>
+<!--#include virtual="/all/dma/dma_activity.html"-->  <!-- 监测代码文件碎片-->
+</body>
+</html>

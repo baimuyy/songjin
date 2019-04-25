@@ -1,0 +1,191 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>锦绣如画 赢纪念币-《新天龙八部》官方网站</title>
+    <meta name="keywords"
+          content="天龙,新天龙,天龙八部,新天龙八部,天龙八部3,tl,tlbb,tl3,xtl,网络游戏,网游,武侠,浪漫武侠,武侠游戏,金庸,MMO,天龙八部OL,年终vip，vip回馈，猪年珍兽"/>
+    <meta name="description"
+          content="《新天龙八部》2019开年大服：鸿运当头、鸿运连年！专属春节限定外观、国风珍兽、女神相伴、全新春节活动、海量福利，更有每天一部iPhone XS等你来拿！金庸正版授权，大英雄武侠世界，等你为兄弟热血而战。"/>
+    <meta name="author" content=""/>
+    <meta name="applicable-device" content="mobile">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <link type="image/x-icon" href="http://xtl.changyou.com/favicon.ico" rel="icon"/>
+    <link type="image/x-icon" href="http://xtl.changyou.com/favicon.ico" rel="shortcut icon"/>
+    <link type="text/css" rel="stylesheet" href="/act/all/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="/act/xtl/luck/20190408/mobile/css/index.css"/>
+    <script type="text/javascript">
+        //屏幕适应
+        (function (win, doc) {
+            if (!win.addEventListener) return;
+
+            function setFont() {
+                var html = document.documentElement;
+                var k = 750;
+                html.style.fontSize = html.clientWidth / k * 100 + "px";
+            }
+
+            setFont();
+            setTimeout(function () {
+                setFont();
+            }, 300);
+            doc.addEventListener('DOMContentLoaded', setFont, false);
+            win.addEventListener('resize', setFont, false);
+            win.addEventListener('load', setFont, false);
+        })(window, document);
+    </script>
+</head>
+<body class="share-page">
+<div class="wrap">
+    <!-- 内容部分-->
+    <div class="content pr">
+        <a href="index.shtml" class="home-btn p-comm" title="回到首页">回到首页</a>
+        <!-- 登录信息 -->
+        <div class="login-bar">
+            <div class="unlogin">
+                <a href="javascript:;" class="login-btn" title="登 录">登 录</a>
+            </div>
+            <div class="logined" style="display: none;">
+                <span></span>
+                <a href="javascript:logout();" class="zx-btn" title="注 销">注 销</a>
+            </div>
+        </div>
+        <a href="javascript:;" class="logo"><img src="/act/xtl/luck/20190408/mobile/img/logo.png" alt="新天龙八部"/></a>
+        <div class="xin-box">
+            <ul class="x-list">
+                <li><span class="x-txt1">亲爱的<em class="bor-t1"></em></span> <i class="my-name" id="m-name"></i>
+                    <p class="poi">.<br>.<br>.</p></li>
+                <li><span class="x-txt2 x-txt hh">梦回大宋，传承非遗文化</span></li>
+                <li><span class="x-txt3 x-txt hh">诚邀你一起领略宋锦之美</span></li>
+                <li><span class="x-txt4 x-txt hh">赢取十二周年纪念币豪礼</span></li>
+                <li><i class="f-ico icon hh">友</i> <i class="your-name" id="y-name"></i>
+                    <p class="poi2 poi">.<br>.<br>.</p></li>
+            </ul>
+            <ul class="crane-box pr">
+                <li class="c1"><span class="cr1">鹤</span></li>
+                <li class="c2"><span class="cr2">鹤</span></li>
+                <li class="c3"><span class="cr3">鹤</span></li>
+                <li class="c4"><span class="bor1">线</span></li>
+                <li class="c5"><span class="bor2">线</span></li>
+                <li class="c6"><span class="bor3">线</span></li>
+            </ul>
+            <a href="javascript:;" class="accept-btn icon p-comm">接受邀请</a>
+        </div>
+        <div class="xin-info">
+            <h2 class="s-tit icon hh" title="活动介绍：织锦赢豪礼"></h2>
+            <p><i class="red">5月6日至5月12日</i>，收集蚕茧织造宋锦，每次织造均能获得<i class="red">锦绣如画礼包</i>；
+                累计织造4次还能额外获得<i class="red">5个至尊强化精华</i>，更有几率获得新天龙八部X中国黄金定制的<i class="red">十二周年纪念币</i>！</p>
+        </div>
+
+    </div>
+    <!-- 以下为分享页弹窗-->
+    <!--1 成功接受邀请-->
+    <div class="pop popbg2 pop-yaoq" id="pop-yaoq1">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <h2 class="pop-tit">成功接受邀请</h2>
+        <div class="pop-con">
+            <!--<a href="javascript:void(0);" class="see-btn icon p-comm">点击领略宋锦之美</a>-->
+        </div>
+    </div>
+    <!--2 接受邀请失败-->
+    <div class="pop pop-yaoq" id="pop-yaoq2">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <div class="pop-t"><h2 class="pop-tit">接受邀请失败</h2></div>
+        <div class="pop-c">
+            <p class="p-txt">您<b class="red">已接受过</b>该好友的邀请。</p>
+            <!--<a href="javascript:void(0);" class="see-btn icon p-comm">点击领略宋锦之美</a>-->
+        </div>
+        <div class="pop-b"></div>
+    </div>
+    <!--3 接受邀请失败-->
+    <div class="pop pop-yaoq" id="pop-yaoq3">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <div class="pop-t"><h2 class="pop-tit">接受邀请失败</h2></div>
+        <div class="pop-c">
+            <p class="p-txt">您<b class="red">邀请过该好友</b>，无法接受该好友的邀请。</p>
+            <!--<a href="javascript:void(0);" class="see-btn icon p-comm">点击领略宋锦之美</a>-->
+        </div>
+        <div class="pop-b"></div>
+    </div>
+    <!--4 一个微信只能接受一次邀请-->
+    <div class="pop pop-yaoq" id="pop-yaoq4">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <div class="pop-t"><h2 class="pop-tit">一个微信只能接受一次邀请</h2></div>
+        <div class="pop-c">
+            <p class="p-txt">您<b class="red">已接受过其他好友的邀请</b>，暂无法接受该好友的邀请。</p>
+            <!--<a href="javascript:void(0);" class="see-btn icon p-comm">点击领略宋锦之美</a>-->
+        </div>
+        <div class="pop-b"></div>
+    </div>
+    <!--5 接受邀请失败-->
+    <div class="pop pop-yaoq" id="pop-yaoq5">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <div class="pop-t"><h2 class="pop-tit">接受邀请失败</h2></div>
+        <div class="pop-c">
+            <p class="p-txt">该好友邀请人数<b class="red">已达上限</b></p>
+            <!--<a href="javascript:void(0);" class="see-btn icon p-comm">点击领略宋锦之美</a>-->
+        </div>
+        <div class="pop-b"></div>
+    </div>
+    <!--6 接受邀请失败-->
+    <div class="pop pop-yaoq" id="pop-yaoq6">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <div class="pop-t"><h2 class="pop-tit">接受邀请失败</h2></div>
+        <div class="pop-c">
+            <p class="p-txt">不能接受自己的邀请哟~</p>
+            <!--<a href="javascript:void(0);" class="see-btn icon p-comm">点击领略宋锦之美</a>-->
+        </div>
+        <div class="pop-b"></div>
+    </div>
+    <!--7 账号停权提示-->
+    <div class="pop pop-yaoq" id="pop-yaoq7">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <div class="pop-t"><h2 class="pop-tit">账号停权提示</h2></div>
+        <div class="pop-c">
+            <p class="p-txt">您的账号<b class="red">停权中</b>，请更换账号参与。</p>
+        </div>
+        <div class="pop-b"></div>
+    </div>
+    <!--8 角色等级不符合要求-->
+    <div class="pop pop-yaoq" id="pop-yaoq8">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <div class="pop-t"><h2 class="pop-tit">角色等级不符合要求</h2></div>
+        <div class="pop-c">
+            <p class="p-txt">您账号下最高角色<b class="red">等级低于30级，</b> </br>请您尽快提升角色等级或更换账号参与~</p>
+        </div>
+        <div class="pop-b"></div>
+    </div>
+    <!--9 接受邀请失败-->
+    <div class="pop pop-yaoq" id="pop-yaoq9">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <div class="pop-t"><h2 class="pop-tit">接受邀请失败</h2></div>
+        <div class="pop-c">
+            <p class="p-txt">您已邀请过其他好友，无法接受邀请</p>
+        </div>
+        <div class="pop-b"></div>
+    </div>
+    <!--10 接受邀请失败-->
+    <div class="pop pop-yaoq" id="pop-yaoq10">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <div class="pop-t"><h2 class="pop-tit">接受邀请失败</h2></div>
+        <div class="pop-c">
+            <p class="p-txt">账号已被其他用户邀请成功过</p>
+        </div>
+        <div class="pop-b"></div>
+    </div>
+</div>
+<!--#include virtual="inc/loginpops.shtml"-->
+<script src="/act/all/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/act/xtl/luck/20190408/mobile/js/loader.min.js"></script>
+<script type="text/javascript" src="/act/all/js/popout.js"></script>
+<script src="/js/join-activity-2.0.0.js"></script>
+<script type="text/javascript" src="js/share.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+
+<!--#include virtual="/all/dma/dma_activity.html"--> <!-- 监测代码文件碎片-->
+</body>
+</html>

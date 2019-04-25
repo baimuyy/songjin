@@ -1,0 +1,456 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>苏州宋锦-《新天龙八部》官方网站</title>
+    <meta name="keywords"
+          content="天龙,新天龙,天龙八部,新天龙八部,天龙八部3,tl,tlbb,tl3,xtl,网络游戏,网游,武侠,浪漫武侠,武侠游戏,金庸,MMO,天龙八部OL,年终vip，vip回馈，猪年珍兽"/>
+    <meta name="description"
+          content="《新天龙八部》2019开年大服：鸿运当头、鸿运连年！专属春节限定外观、国风珍兽、女神相伴、全新春节活动、海量福利，更有每天一部iPhone XS等你来拿！金庸正版授权，大英雄武侠世界，等你为兄弟热血而战。"/>
+    <meta name="author" content=""/>
+    <meta name="applicable-device" content="mobile">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <link type="image/x-icon" href="http://xtl.changyou.com/favicon.ico" rel="icon"/>
+    <link type="image/x-icon" href="http://xtl.changyou.com/favicon.ico" rel="shortcut icon"/>
+    <link type="text/css" rel="stylesheet" href="http://tl.changyou.com/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="/act/xtl/luck/20190408/mobile/css/index.css"/>
+
+    <script type="text/javascript">
+        //屏幕适应
+        (function (win, doc) {
+            if (!win.addEventListener) return;
+
+            function setFont() {
+                var html = document.documentElement;
+                var k = 750;
+                html.style.fontSize = html.clientWidth / k * 100 + "px";
+            }
+
+            setFont();
+            setTimeout(function () {
+                setFont();
+            }, 300);
+            doc.addEventListener('DOMContentLoaded', setFont, false);
+            win.addEventListener('resize', setFont, false);
+            win.addEventListener('load', setFont, false);
+        })(window, document);
+    </script>
+</head>
+<body>
+<div class="wrap">
+    <!--loading-->
+    <div class="load-box">
+        <div class="load-mid">
+            <a href="http://m.tl.changyou.com/" target="_blank" class="load-logo"><img
+                    src="/act/xtl/luck/20190408/mobile/img/load-logo.png" alt="新天龙八部"/></a>
+            <div class="load-con">
+                <img src="/act/xtl/luck/20190408/mobile/img/load-fan.png" alt="扇子" class="load-fan">
+                <img src="/act/xtl/luck/20190408/mobile/img/load-bor.png" alt="针线" class="load-bor">
+            </div>
+            <div class="load-pre">
+                <p class="load-txt">满箔春蚕得茧丝，家家机杼换新衣...</p>
+                <p class="load-num">0%</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 内容部分-->
+    <div class="content pr" style="display:none;">
+        <a href="javascript:;" class="gl-btn p-comm" title="攻 略">攻 略</a>
+        <!-- 登录信息 -->
+        <div class="login-bar">
+            <div class="unlogin">
+                <a href="javascript:;" class="login-btn" title="登 录">登 录</a>
+            </div>
+            <div class="logined" style="display: none;">
+                <span>*****</span>
+                <a href="javascript:logout();" class="zx-btn" title="注 销">注 销</a>
+            </div>
+        </div>
+        <a href="javascript:;" class="logo"><img src="/act/xtl/luck/20190408/mobile/img/logo.png" alt="新天龙八部"/></a>
+        <div class="gift-box">
+            <h2 class="g-tit icon hh" title="织锦赢豪礼"></h2>
+            <div class="g-con pr">
+                <div class="g-img flex">
+                    <img src="/act/xtl/luck/20190408/mobile/img/jl1.png" class="jl1" alt=""/>
+                    <p class="hl-txt"><b>5月6日至5月12日</b>，收集蚕茧织宋锦，赢取</br> <b>十二周年纪念币、锦绣如画礼包</b>等豪礼！</p>
+                </div>
+                <!-- 添加ani 宝箱上有光-->
+                <a href="javascript:;" class="hl-btn">
+                    <img src="/act/xtl/luck/20190408/mobile/img/box.png" class="box-dj pa" alt="豪礼揭秘"/>
+                    <img src="/act/xtl/luck/20190408/mobile/img/box-light.png" class="box-lig pa" alt="光"/>
+                    <img src="/act/xtl/luck/20190408/mobile/img/box-light2.png" class="box-lig2 pa" alt="光"/>
+                </a>
+                <!-- 进度-->
+                <div class="load-bar">
+                    <div class="load-bar-x" id="load-bar-x">
+                        <div class="cur-pos">
+                            <p class="cur0">0</p>
+                            <p class="cur1">1</p>
+                            <p class="cur2">2</p>
+                            <p class="cur3">3</p>
+                            <p class="cur4">4 <a href="javascript:;" class="jx-btn icon hh">惊喜豪礼</a></p>
+                            <p class="cur5">5</p>
+                            <p class="cur6">6</p>
+                            <p class="cur7">7</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="map-box">
+            <ul class="pint-bg pr">
+                <!-- li上添加类名on时 点亮-->
+                <!--<li class="step0"><img src="/act/xtl/luck/20190408/mobile/img/pint0.jpg" alt="" /></li>-->
+                <li class="step1"><img src="/act/xtl/luck/20190408/mobile/img/pint1.png" alt=""/></li>
+                <li class="step2"><img src="/act/xtl/luck/20190408/mobile/img/pint2.png" alt=""/></li>
+                <li class="step3"><img src="/act/xtl/luck/20190408/mobile/img/pint3.png" alt=""/></li>
+                <li class="step4"><img src="/act/xtl/luck/20190408/mobile/img/pint4.png" alt=""/></li>
+                <li class="step5"><img src="/act/xtl/luck/20190408/mobile/img/pint5.png" alt=""/></li>
+                <li class="step6"><img src="/act/xtl/luck/20190408/mobile/img/pint6.png" alt=""/></li>
+                <li class="step7"><img src="/act/xtl/luck/20190408/mobile/img/pint7.png" alt=""/></li>
+            </ul>
+            <div class="map-info">
+                <!-- 待领取时显示红点-->
+                <a href="javascript:;" class="collect">收集蚕茧<i class="red-c" title="红点"></i></a>
+                <a href="javascript:convert();" class="weave icon">织造宋锦</a>
+                <p class="c-num">蚕茧数：<em>0</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="sharetip"></div><!--分享蒙层-->
+
+    <!-- 以下为弹窗部分-->
+    <!-- 已登录 织造完成 锦绣如画-->
+    <div class="pop popbg2 pop-weave" id="pop-weave1">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <h2 class="pop-tit">锦绣如画</h2>
+        <div class="pop-con">
+            <p class="p-txt">宋锦已经织造完毕了哟~</p>
+        </div>
+    </div>
+    <!-- 已登录 蚕茧不足-->
+    <div class="pop popbg2 pop-weave" id="pop-weave2">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <h2 class="pop-tit">蚕茧不足</h2>
+        <div class="pop-con">
+            <p class="p-txt">每次织造宋锦需要<em class="red">消耗100个</em>蚕茧哟~</p>
+            <a href="javascript:void(0);" class="sj-btn icon p-comm">点击收集蚕茧</a>
+        </div>
+    </div>
+    <!-- 已登录 织锦成功 恭喜获得-->
+    <div class="pop popbg3 pop-weave" id="pop-weave3">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <h2 class="pop-tit">织锦成功 恭喜获得</h2>
+        <div class="pop-con">
+            <ul class="dj-list">
+                <li>
+                    <div class="dj-bg"><img src="/act/xtl/luck/20190408/mobile/img/dj1.jpg" alt="" /> </div>
+                    <span>锦绣如画礼包</span>
+                </li>
+                <li hidden class="gift-to-four" hidden>
+                    <div class="dj-bg"><img src="/act/xtl/luck/20190408/mobile/img/dj2.jpg" alt="" /> </div>
+                    <span>至尊强化精华*5</span>
+                </li>
+            </ul>
+            <div class="dj-tit icon hh">宋锦小故事</div>
+            <p class="dj-txt" style="display: none">
+                宋锦，主产地苏州，又称“苏州宋锦”。色泽华丽，质地坚柔，与南京云锦、四川蜀锦并称中国三大名锦。
+            </p>
+            <p class="dj-txt" style="display: none">
+                宋锦源于东吴，形成于两宋，鼎盛于明清，分重锦、细锦、匣锦和小锦四大类。重锦质地厚重，用于宫殿、堂室内的陈设；细锦厚薄适中，广泛用于服饰、装裱。
+            </p>
+            <p class="dj-txt" style="display: none">
+                宋锦从缫丝染色到织造成型需经历二十多道工序，以经线和纬线同时显花，应用彩抛换色技艺，织物表面色线和组织层次极为丰富。
+            </p>
+            <p class="dj-txt" style="display: none">
+                宋锦的花纹和色彩名目繁多。据文献记载，靖康初，京师织帛及妇人首饰衣服，皆备四时。如节物则春旙、艾虎、云月之类；花则桃杏菊梅，谓之一年一景。
+            </p>
+            <p class="dj-txt" style="display: none">
+                宋锦的纹样中应用最广的是“万（卍）”字纹。《红楼梦》中有一段借茗烟之口对丫鬟“万儿”名字由来的解释：她母亲生她的时节做梦得了一匹锦，上面是五色富贵不断头的“万（卍）”花样，所以她的名字叫做“万儿”。
+            </p>
+            <p class="dj-txt" style="display: none">
+                宋锦质地轻薄精细，图案风格丰富多变。纵观历史，宋锦的用途十分广泛，有欣赏锦、衣着锦、装饰锦、装裱锦种种。
+            </p>
+            <p class="dj-txt" style="display: none">
+                宋锦于2009年入选世界非物质文化遗产，技艺传承人钱老师被授予国家级传承人。2014年亮相APEC国家领导人会议，向世界展现中华文化之美。
+            </p>
+        </div>
+    </div>
+
+
+    <!-- 登录 收集蚕茧方式-->
+    <div class="pop pop-collect4" id="pop-collect4">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <div class="pop-t"><h2 class="pop-tit">收集蚕茧方式</h2></div>
+        <div class="pop-c">
+            <div class="k-box">
+                <div class=k-mod>
+                    <h3>邀请好友领略宋锦文化</h3>
+                    <div class="txt1 txt">
+                        <p><i>1.</i>成功邀请1人每日可获得<em class="red">蚕茧*10</em></p>
+                        <p><i>2.</i>接受邀请的好友再邀请好友，每日还能额外获得蚕茧*1<em class="red">（一次邀请，多重收益哟）</em></p>
+                    </div>
+                    <a href="javascript:inviteshare();" class="yaoq-btn icon p-comm ">去邀请</a>
+                    <a href="javascript:invitetask();" class="lq-btn icon p-comm" style="display: none;">点击领取</a>
+                    <a class="ywc-btn icon p-comm " style="display: none;">已完成</a>
+                </div>
+                <div class=k-mod>
+                    <h3>登录有礼</h3>
+                    <div class="txt">
+                        <p>每日首次登录游戏客户端即可返回页面领取<em class="red">蚕茧*50</em></p>
+                    </div>
+                    <a href="javascript:hideMask($('.pop'));popup($('#pop-collect1'));" class="dwc-btn icon p-comm">待完成</a>
+                    <a href="javascript:logintask();" class="lq-btn icon p-comm " style="display: none;">点击领取</a>
+                    <a class="ywc-btn icon p-comm " style="display: none;">已完成</a>
+                </div>
+                <div class=k-mod>
+                    <h3>宋锦文化趣味问答</h3>
+                    <div class="txt">
+                        <p>每日答对3道可获得蚕茧<em class="red">*30</em></p>
+                    </div>
+                    <a href="javascript:question();" class="start-btn icon p-comm">开始答题</a>
+                    <a class="ywc-btn icon p-comm" style="display: none;">已完成</a>
+                </div>
+            </div>
+        </div>
+        <div class="pop-b"></div>
+    </div>
+    <!-- 收集蚕茧 登录有礼-->
+    <div class="pop" id="pop-collect1">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <div class="pop-t"><h2 class="pop-tit">登录有礼</h2></div>
+        <div class="pop-c">
+            <p class="p-txt">请先<em class="red">登录游戏客户端，</em>再来领取蚕茧哟~</p>
+        </div>
+        <div class="pop-b"></div>
+    </div>
+    <!-- 收集蚕茧 恭喜获得-->
+    <div class="pop popbg2" id="pop-collect2">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <h2 class="pop-tit">恭喜获得</h2>
+        <div class="pop-con">
+            <p class="p-txt">蚕茧*<span></span></p>
+        </div>
+    </div>
+    <!-- 收集蚕茧 宋锦文化趣味问答-->
+    <div class="pop" id="pop-collect3">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <div class="pop-t"><h2 class="pop-tit">宋锦文化趣味问答</h2></div>
+        <div class="pop-c">
+            <p class="answer">已答对：<em class="red"><span>0</span>题</em></p>
+            <div class="topic-box">
+                <p class="t-tit"><i>题目：</i><span>*</span></p>
+                <ul class="t-list">
+                    <li><i>选项A：</i><span>*</span></li>
+                    <li><i>选项B：</i><span>*</span></li>
+                </ul>
+                <div class="t-btn">
+                    <a href="javascript:answer('A');" class="sel-btn1 icon p-comm">选项A</a>
+                    <a href="javascript:answer('B');" class="sel-btn2 icon p-comm">选项B</a>
+                </div>
+            </div>
+        </div>
+        <div class="pop-b"></div>
+    </div>
+    <!-- 活动奖励-->
+    <div class="pop pop-reward" id="pop-reward">
+        <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+        <div class="pop-t"><h2 class="pop-tit">活动奖励</h2></div>
+        <div class="pop-c">
+            <div class="k-box">
+                <div class="dj-mod">
+                    <h3>织造宋锦<i class="red">（每次均有奖）</i></h3>
+                    <div class="dj-c flex">
+                        <ul class="dj-list">
+                            <li>
+                                <i class="bd tag">必得</i>
+                                <div class="dj-bg"><img src="/act/xtl/luck/20190408/mobile/img/dj1.jpg" alt=""/></div>
+                                <span>锦绣如画礼包</span>
+                            </li>
+
+                        </ul>
+                        <p class="huod">已获得：<span class="d-num">0/7</span></p>
+                        <div class="p-add-txt">
+                            <h4>&bull; 单次签到奖励介绍</h4>
+                            <p>开启礼包随机获得<i class="red">典籍注解*4、悟灵珠*4、真元精珀*2、3级秘银和3级棉布</i>中的一种</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="dj-mod">
+                    <h3>累计织造<i class="red">4次</i>宋锦</h3>
+                    <div class="dj-c flex">
+                        <ul class="dj-list">
+                            <li>
+                                <i class="bd tag">必得</i>
+                                <div class="dj-bg"><img src="/act/xtl/luck/20190408/mobile/img/dj2.jpg" alt=""/></div>
+                                <span>至尊强化精华*5</span>
+                            </li>
+                            <li>
+                                <i class="gl tag">概率</i>
+                                <div class="dj-bg"><img src="/act/xtl/luck/20190408/mobile/img/dj3.jpg" alt=""/></div>
+                                <span>十二周年纪念币</span>
+                            </li>
+                        </ul>
+                        <p class="huod">已获得：<span class="d-num">0/1</span></p>
+                        <div class="p-add-txt">
+                            <h4>&bull; 累签奖励介绍</h4>
+                            <p>必得<i class="red">至尊强化精华*5</i>，随机抽取<i class="red">10名</i>幸运玩家，获得新天龙八部X中国黄金定制的<i class="red">十二周年纪念币</i>！获奖名单将于5月13日于官网公告和微信公众号公布。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pop-b"></div>
+    </div>
+</div>
+<!--#include virtual="inc/loginpops.shtml"-->
+<script src="/act/all/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/act/xtl/luck/20190408/mobile/js/zepto.min.js"></script>
+<script type="text/javascript" src="/act/xtl/luck/20190408/mobile/js/loader.min.js"></script>
+<script type="text/javascript" src="/act/all/js/popout.js"></script>
+<script type="text/javascript">
+
+    function sleep(delay) {
+        var start = (new Date()).getTime();
+        while ((new Date()).getTime() - start < delay) {
+            continue;
+        }
+    }
+    //loading
+    var page = {
+        imagePath: '/act/xtl/luck/20190408/mobile/img/',
+        loader: function () {
+            var source = ['load-bg.jpg', 'load-bor.png', 'load-fan.png', 'bg1.jpg', 'pint0.jpg', 'pint1.png', 'pint2.png', 'pint3.png', 'pint4.png', 'pint5.png', 'pint6.png', 'pint7.png', 'icon.png', 'box.png', 'pop2.png', 'pop3.png'];
+            for (var n in source) {
+                source[n] = page.imagePath + source[n];
+            }
+            var loadbox = $('.load-box'),
+                load_num = $('.load-box .load-num');
+            //load_cur = $('.load_percent');
+            new mo.Loader(source, {
+                loadType: 1,
+                minTime: 150,
+                onLoading: function (count, total) {
+                    if (count === total) {
+                        load_num.html('100%');
+                        //load_cur.css({ width: '100%' });
+                    } else {
+                        load_num.html(parseInt(count / total * 100) + '%');
+                        //load_cur.css({ width: parseInt(count / total * 100) + '%' });
+                    }
+                },
+                onComplete: function (time) {
+                    setTimeout(function () {
+                        loadbox.addClass('pageload-complete');
+                        // loadCallback("[]");//调用进度
+                        $('.content').css('display', 'block');//首页内容
+                    }, 200);
+                }
+            });
+        },
+        init: function () {
+            setTimeout(function () {
+                page.loader();
+            }, 1200);
+            $('.red-c').hide();
+        }
+    };
+    page.init();
+
+    //跳转到攻略页
+    $('.gl-btn').on('click', function () {
+        window.location.replace("gongl.shtml");
+    });
+
+    //进度
+    var loadCallback = function (sequence) {
+        console.info(sequence);
+        //测试
+        // sequence = "[3, 0, 6]";
+        var _sequence = JSON.parse(sequence);
+        var _total = _sequence.length;
+        // var _total = 7;
+        //进度条比例转换
+        var load_w = _total / 7 * 100;
+        if (_total >= 7) {//总数超过7时
+            $(".load-bar-x").css("width", "100%");
+        } else {
+            $("#load-bar-x").css("width", load_w + '%');
+        }
+        //进度圆点
+        for (var i = 0; i <= _total; i++) {
+            $(".cur-pos").find("p").eq(i).addClass('on');
+        }
+        //领取A奖励情况
+        $(".pop-reward .d-num").eq(0).text(_total + "/7");
+        //领取B奖励情况
+        if (i >= 4) {
+            $(".pop-reward .d-num").eq(1).text(1 + "/1");
+        }
+        //拼图
+        _sequence.forEach(function (i) {
+            console.info("点亮" + i);
+            $('.pint-bg').find("li").eq(i).addClass('on');
+            $('.pint-bg').find("li").removeClass('ani').eq(i).addClass('ani');
+        })
+    };
+
+
+    //弹窗调用 登录
+    $('.login-btn').click(function () {
+        popup($('#pop-login1'));
+    });
+    //收集蚕茧
+    $('.collect,#pop-weave2').click(function () {
+        if(ISLogin) {
+            hideMask($('#pop-weave2'));
+            popup($('#pop-collect4'));
+        }else {
+            popup($('#pop-login1'));
+        }
+    });
+    /*    //开始答题
+        $('.start-btn').click(function () {
+            hideMask($('#pop-collect4'));
+            popup($('#pop-collect3'));
+        });*/
+    //惊喜豪礼，豪礼揭秘
+    $('.jx-btn,.hl-btn').click(function () {
+        $('.hl-btn').removeClass('ani');
+        popup($('#pop-reward'));
+    });
+    //豪礼揭秘宝箱打开后去掉光效
+    $('.hl-btn').click(function () {
+        $('.hl-btn').removeClass('ani');
+    });
+
+    // //织造宋锦
+    // $('.weave').click(function () {
+    //     popup($('#pop-weave3'));
+    // });
+
+    //邀请好友分享提示
+    $('.yaoq-btn').on('click', function () {
+        hideMask($('#pop-collect4'));
+        $('.sharetip').fadeIn();
+    });
+    //分享提示关闭
+    $('.sharetip').on('click', function () {
+        $(this).fadeOut();
+    });
+
+
+</script>
+<script src="/js/join-activity-2.0.0.js"></script>
+<script src="js/index.js"></script>
+<script src="js/global.js?v1"></script>
+<!--#include virtual="/all/dma/dma_activity.html"-->  <!-- 监测代码文件碎片-->
+</body>
+</html>

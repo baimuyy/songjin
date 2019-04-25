@@ -1,0 +1,59 @@
+<!-- 登录功能弹窗-->
+<div class="pop" id="pop-login1">
+    <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+    <div class="pop-t"><h2 class="pop-tit">请选择登录方式</h2></div>
+    <div class="pop-c">
+        <ul class="list">
+            <!-- 登录 未绑定公众号-->
+            <li id="pop-login1-isnotbind">
+                <span>微信登录</span>
+                <i class="wx-ico icon hh">微信</i>
+                <p class="tips">您<em class="red">尚未绑定</em>公众号，暂无法</br>快捷登录。</p>
+                <a href="javascript:" class="bd-btn icon p-comm" title="前往绑定">前往绑定</a>
+            </li>
+            <!-- 登录 已绑定公众号-->
+            <li id="pop-login1-isbind" style="display: none;">
+                <span>微信登录</span>
+                <i class="wx-ico icon hh">微信</i>
+                <p class="tips">* 账号<em class="red">***</em>已绑定公众号</p>
+                <a href="javascript:wechatAutoLogin();" class="wx-login icon p-comm" title="一键登录">一键登录</a>
+            </li>
+            <li>
+                <span>畅游登录</span>
+                <i class="cy-ico icon hh">畅游</i>
+                <p class="tips">* 输入畅游账号登录</p>
+                <a href="javascript:login();" class="cy-login icon p-comm" title="点击登录">点击登录</a>
+            </li>
+        </ul>
+    </div>
+    <div class="pop-b"></div>
+</div>
+<!-- 登录 登录成功-->
+<div class="pop popbg2" id="pop-login3">
+    <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+    <h2 class="pop-tit">登录成功</h2>
+    <div class="pop-con">
+        <p class="s-txt">奖励将发至以下账号</p>
+        <a href="javascript:void(0);" class="mail">***@changyou.com</a>
+    </div>
+</div>
+<!-- 登录 账号停权提示-->
+<div class="pop pop-tips" id="pop-tips1">
+    <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+    <div class="pop-t"><h2 class="pop-tit">账号停权提示</h2></div>
+    <div class="pop-c">
+        <p class="p-txt">您的账号<em class="red">停权中</em>，请更换账号参与。</p>
+    </div>
+    <div class="pop-b"></div>
+</div>
+<!-- 登录 角色不符合要求-->
+<div class="pop pop-tips" id="pop-tips2">
+    <a href="javascript:void(0);" class="close icon hh" title="关闭"></a>
+    <div class="pop-t"><h2 class="pop-tit">角色等级不符合要求</h2></div>
+    <div class="pop-c">
+        <p class="p-txt">您账号下最高角色<em class="red">等级低于30级</em>，</br>
+            请您尽快提升角色等级或更换账号参与~
+        </p>
+    </div>
+    <div class="pop-b"></div>
+</div>
